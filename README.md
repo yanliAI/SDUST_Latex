@@ -6,3 +6,7 @@
 #Latex编辑软件安装
 
 软件安装步骤可参照https://zhuanlan.zhihu.com/p/388415963
+
+#联系方式
+
+2365855406@qq.com
