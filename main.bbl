@@ -1,0 +1,22 @@
+
+\begin{thebibliography}{2}
+\thispagestyle{empty}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI: #1}\else
+  \providecommand{\doi}{DOI: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Manolakis, et~al.(2005)Manolakis, Ingle, and Kogon]{Manolakis2005}
+Manolakis D G, Ingle V K, Kogon S M.
+\newblock Statistical and Adaptive Signal Processing[M].
+\newblock Norwood: Artech House, Inc., 2005.
+
+\bibitem[Lee(2016)]{Lee2016}
+Lee Z.
+\newblock GB/T 7714-2015 参考文献 BiBTeX 样式[M/OL].
+\newblock 2016.
+\newblock \url{https://github.com/zepinglee/gbt7714-bibtex-style}.
+
+\end{thebibliography}
+
