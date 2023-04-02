@@ -1,0 +1,23 @@
+\ttl@change@i {\@ne }{chapter}{0em}{\bfseries \hei \xiaosi }{\thecontentslabel ~~}{}{\titlerule *[4pt]{.}\contentspage }\relax 
+\ttl@change@v {chapter}{}{}{}\relax 
+\ttl@change@i {\@ne }{section}{38pt}{\xiaosi }{\contentslabel {22pt}}{\hspace *{-22pt}}{\titlerule *[0.3pc]{.}\contentspage }\relax 
+\ttl@change@v {section}{}{}{}\relax 
+\ttl@change@i {\@ne }{subsection}{70pt}{\xiaosi }{\contentslabel {32pt}}{\hspace *{-32pt}}{\titlerule *[0.3pc]{.}\contentspage }\relax 
+\ttl@change@v {subsection}{}{}{}\relax 
+\contentsline {chapter}{图清单}{I}{section*.4}%
+\contentsline {chapter}{表清单}{II}{section*.6}%
+\contentsline {chapter}{变量注释表}{III}{section*.8}%
+\contentsline {chapter}{\numberline {1\hspace {.3em}}\LaTeX {} 介绍}{1}{section*.10}%
+\contentsline {section}{\numberline {1.1}\LaTeX {} 是什么}{1}{section*.12}%
+\contentsline {section}{\numberline {1.2}为什么用 \LaTeX }{2}{section*.14}%
+\contentsline {section}{\numberline {1.3}怎样用 \LaTeX }{3}{section*.16}%
+\contentsline {chapter}{\numberline {2\hspace {.3em}}图表公式排版}{4}{section*.18}%
+\contentsline {section}{\numberline {2.1}图}{4}{section*.20}%
+\contentsline {subsection}{\numberline {2.1.1}单幅图}{4}{section*.22}%
+\contentsline {subsection}{\numberline {2.1.2}多幅图}{5}{section*.26}%
+\contentsline {section}{\numberline {2.2}表}{5}{section*.32}%
+\contentsline {section}{\numberline {2.3}公式}{6}{section*.36}%
+\contentsline {subsection}{\numberline {2.3.1}单个公式}{7}{section*.38}%
+\contentsline {chapter}{\numberline {3\hspace {.3em}}参考文献格式}{8}{section*.40}%
+\contentsline {section}{\numberline {3.1}格式}{8}{section*.42}%
+\contentsfinish 
