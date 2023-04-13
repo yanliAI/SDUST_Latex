@@ -5,71 +5,81 @@
 %\setcounter{page}{1}\pagenumbering{Roman}
 %\BiChapter{图清单}{List of Figures}
 %\BiAppendixChapter{图清单}{List of Figures}
-\begin{center}{\bfseries\xiaoer\hei {图清单}}\end{center}
-\vspace{-2em}
-\addcontentsline{toc}{chapter}{图清单}
-\addcontentsline{toe}{chapter}{List of Figures}
 \begin{center}\setcounter{page}{1}\pagenumbering{Roman}\end{center}
+\begin{center}{\hei\fontsize{18pt}{18pt}\selectfont\setlength{\parskip}{0.5\baselineskip} 图清单}\end{center}   %黑体小2居中，单倍行距，段前0.5行，段后0.5行
+\addcontentsline{toc}{chapter}{\protect\fontsize{12pt}{12pt}\selectfont\vspace{-0.9\baselineskip}\noindent 图清单}
+\addcontentsline{toe}{chapter}{\protect\fontsize{12pt}{12pt}\selectfont\vspace{-0.4\baselineskip}\noindent List of Figures}
+ %黑体小4号，单倍行距,段前断后0
+ %\end{raggedright} 
+{\fontsize{10.5pt}{16pt}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\centering
+\begin{tabularx}{\textwidth}{|C{0.15\textwidth}|C{0.618\textwidth}|C{0.15\textwidth}|}
+\hline
+图序号 & 图名称 & 页码 \\
+\hline
+图2.1 & 边界元法与有限元法、有限差分比较 & 43  \\
+\hline
+Fig.2.1 & Difference among FDM, FEM \& BEM & 43  \\
+\hline
+图2.2 & 边界元法基本原理图示 & 43 \\
+\hline
+\end{tabularx}
+%\caption{一个占满页宽的表格}
+}% 中文宋体5号；英文：Times New Roman 5号字 
 
-%\begin{center}{\bfseries\xiaoer\hei {图清单}}\end{center}
-
- {\wuhao
-   \begin{raggedright}
-    \begin{tabular}{|c| c| c|}
-	     	\hline
-	       \hspace{4em}图序号 \hspace{4em} & \hspace{7em}图名称 \hspace{7em} &\hspace{4em} 页码 \hspace{4em} \\
-	      \hline
-	       psnr  &  10     &  20   \\
-	       \hline
-	       ssim  &  10     &   21    \\
-	       \hline   	
-     \end{tabular}
- \end{raggedright} 
- }   
-
- 
 
 
 %====================================== 表清单 ==========================================
 
 \newpage\thispagestyle{empty}
-\begin{center}{\bfseries\xiaoer\hei {表清单}}\end{center}
-
-\addcontentsline{toc}{chapter}{表清单}
-\addcontentsline{toe}{chapter}{List of Tables}
+\begin{center}{\hei\fontsize{18pt}{18pt}\selectfont\setlength{\parskip}{0.5\baselineskip} {表清单}}\end{center}
+\addcontentsline{toc}{chapter}{\protect\fontsize{12pt}{12pt}\selectfont\vspace{-0.9\baselineskip}\noindent 表清单}
+\addcontentsline{toe}{chapter}{\protect\fontsize{12pt}{12pt}\selectfont\vspace{-0.4\baselineskip}\noindent List of Tables}
+%黑体小4号，单倍行距,段前断后0
 %\BiAppendixChapter{表清单}{List of Tables}
 %\begin{center}{\bfseries\xiaoer\hei {表清单}}\end{center}
-\vspace{1em}
- {\wuhao
-   \begin{raggedright}
-    \begin{tabular}{|c| c| c|}
-	     	\hline
-	       \hspace{4em}表序号 \hspace{4em} & \hspace{7em}表名称 \hspace{7em} &\hspace{4em} 页码 \hspace{4em} \\
-	      \hline
-	       psnr  &  10     &  20   \\
-	       \hline
-	       ssim  &  10     &   21    \\
-	       \hline   	
-     \end{tabular}
- \end{raggedright} 
- }   
+
+{\fontsize{10.5pt}{16pt}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\centering
+\begin{tabularx}{\textwidth}{|C{0.15\textwidth}|C{0.618\textwidth}|C{0.15\textwidth}|}
+\hline
+图序号 & 图名称 & 页码 \\
+\hline
+图2.1 & 边界元法与有限元法、有限差分比较 & 43  \\
+\hline
+Fig.2.1 & Difference among FDM, FEM \& BEM & 43  \\
+\hline
+图2.2 & 边界元法基本原理图示 & 43 \\
+\hline
+\end{tabularx}
+%\caption{一个占满页宽的表格}
+}% 中文宋体5号；英文：Times New Roman 5号字 
+
 
 %======================================变量注释 ==========================================
 \newpage\thispagestyle{empty}
-\begin{center}{\bfseries\xiaoer\hei {变量注释表}}\end{center}
-\vspace{1em}
-\addcontentsline{toc}{chapter}{变量注释表}
-\addcontentsline{toe}{chapter}{List of Variables}
-%\begin{center}{\bfseries\xiaoer\hei {变量注释表}}\end{center}
- {\wuhao
-   \begin{raggedright}
-    \begin{tabular}{ccc}
-	       \hspace{4em}\textbf{变量} \hspace{4em} & \hspace{7em}\bfseries{注释} \hspace{7em} &\hspace{4em} \textbf{初现页} \hspace{4em} \\
-	       \\
-	       psnr  &  10     &  20   \\
-	       ssim  &  10     &   21    \\  	
-     \end{tabular}
- \end{raggedright} 
- }   
+\begin{center}{\hei\fontsize{18pt}{18pt}\selectfont\setlength{\parskip}{0.5\baselineskip} {变量注释表}}\end{center}
+\addcontentsline{toc}{chapter}{\protect\fontsize{12pt}{12pt}\selectfont\vspace{-0.5\baselineskip}\noindent 变量注释表}
+\addcontentsline{toe}{chapter}{\protect\fontsize{12pt}{12pt}\selectfont\vspace{-0.1\baselineskip}\noindent List of Variables}
+
+{\fontsize{10.5pt}{16pt}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\centering
+\begin{tabularx}{\textwidth}{C{0.15\textwidth}C{0.618\textwidth}C{0.15\textwidth}}
+
+\textbf{变量} & \textbf{注释} & \textbf{初现页} \\
+
+E & 弹性模量，MPa & 43  \\
+
+V & 泊松比 & 43  \\
+
+
+\end{tabularx}
+%\caption{一个占满页宽的表格}
+}% 中文宋体5号；英文：Times New Roman 5号字 
+
+
  \clearpage
 

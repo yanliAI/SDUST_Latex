@@ -5,13 +5,16 @@
 
 %\defaultfont
 %\pdfbookmark[0]{目~~~~录}{mulu}
+\setcounter{tocdepth}{1} %只显示二级标题
 \tableofcontents
 
-\noindent{\xiaosi\hei { 参考文献 }}
+{\hei\xiaosi\setlength{\parskip}{0.5\baselineskip}\noindent { 参考文献  }}   %黑体小4号，单倍行距 
+  
+{\hei\xiaosi\setlength{\parskip}{-0.4\baselineskip}\noindent { 作者简历 }}
 
-\noindent{\xiaosi\hei { 作者简历 }}
+{\hei\xiaosi\setlength{\parskip}{-0.4\baselineskip}\noindent { 致\quad 谢 }}
 
-\noindent{\xiaosi\hei {  致\quad 谢 }}
+{\hei\xiaosi\setlength{\parskip}{-0.4\baselineskip}\noindent { 学位论文数据集}}
 \thispagestyle{empty}
 
 
@@ -21,10 +24,12 @@
 %\pdfbookmark[0]{Contents}{econtent}
 \tableofengcontents
 %\noindent Declarations
-\noindent{\bfseries\xiaosi { References}}
+{\bfseries\xiaosi\setlength{\parskip}{0.5\baselineskip}\noindent { References}}
 
-\noindent{\bfseries\xiaosi { Author’s Resume }}
+{\bfseries\xiaosi\setlength{\parskip}{-0.4\baselineskip}\noindent { Author’s Resume }}
 
-\noindent{\bfseries\xiaosi {  Acknowledgements }}
+{\bfseries\xiaosi\setlength{\parskip}{-0.4\baselineskip}\noindent {  Acknowledgements }}
+
+{\bfseries\xiaosi\setlength{\parskip}{-0.4\baselineskip}\noindent {  Thesis Data Collection }}
 \thispagestyle{empty}
 \clearpage
